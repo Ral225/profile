@@ -63,7 +63,7 @@ a:hover {
 }
 .img-circle{
     border-radius: 50%;
-    max-width: 50%;
+    max-width: 30%;
     height: auto;
 }
 
