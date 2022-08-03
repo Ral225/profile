@@ -1,0 +1,99 @@
+body {
+  background-color: #e2f4f5;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica",sans-serif;
+  color: #383D3B;
+  font-size: 14px;
+  line-height:1.125;
+}
+
+h1,h2 {
+  color: #383D3B;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica",sans-serif;
+  font-size: 18px;
+  line-height: 1.125;
+}
+
+
+a{
+color: #7C7C7C;
+text-decoration-line: underline;
+text-decoration-thickness: from-font;
+}
+
+a:hover {
+  background-color: #f5a97d;
+}
+
+.card {
+  background-color:#e3e1e1;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.social-card> li {
+  display: inline-block;
+  padding-left: 0px;
+  font-size: 35px;
+  text-align: center;
+  padding: 10px;
+}
+
+.txt_size{
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+#header_color{
+  color: #F75C03;
+}
+.stop-padding {
+  padding: 0;
+}
+
+.add_space_txt{
+  padding-bottom: 10px;
+}
+.img-circle{
+    border-radius: 50%;
+    max-width: 50%;
+    height: auto;
+}
+
+.btn-blue {
+  background-color: #52D1DC;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.fa-solid  {
+  color: #F75C03;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
